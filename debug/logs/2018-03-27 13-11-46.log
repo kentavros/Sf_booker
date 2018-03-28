@@ -1,0 +1,77 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: CustomTest.getCustData();
+11:11:45.1 (1311509)|USER_INFO|[EXTERNAL]|0051r000007nKPL|assh4884@cunning-goat-277018.com|Greenwich Mean Time|GMT+01:00
+11:11:45.1 (1329045)|EXECUTION_STARTED
+11:11:45.1 (1333826)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+11:11:45.1 (1541371)|HEAP_ALLOCATE|[72]|Bytes:3
+11:11:45.1 (1588764)|HEAP_ALLOCATE|[77]|Bytes:152
+11:11:45.1 (1604800)|HEAP_ALLOCATE|[342]|Bytes:408
+11:11:45.1 (1616239)|HEAP_ALLOCATE|[355]|Bytes:408
+11:11:45.1 (1626873)|HEAP_ALLOCATE|[467]|Bytes:48
+11:11:45.1 (1652504)|HEAP_ALLOCATE|[139]|Bytes:6
+11:11:45.1 (1668519)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+11:11:45.1 (1752854)|STATEMENT_EXECUTE|[1]
+11:11:45.1 (1755837)|STATEMENT_EXECUTE|[1]
+11:11:45.1 (1811501)|HEAP_ALLOCATE|[50]|Bytes:5
+11:11:45.1 (1836195)|HEAP_ALLOCATE|[56]|Bytes:5
+11:11:45.1 (1852520)|HEAP_ALLOCATE|[64]|Bytes:7
+11:11:45.1 (1876436)|SYSTEM_MODE_ENTER|false
+11:11:45.1 (1896073)|HEAP_ALLOCATE|[1]|Bytes:5
+11:11:45.1 (21189185)|HEAP_ALLOCATE|[1]|Bytes:1
+11:11:45.1 (21207938)|HEAP_ALLOCATE|[1]|Bytes:11
+11:11:45.1 (21228888)|METHOD_ENTRY|[1]|01p1r000007pAtp|CustomTest.CustomTest()
+11:11:45.1 (21235726)|STATEMENT_EXECUTE|[1]
+11:11:45.1 (21242457)|STATEMENT_EXECUTE|[1]
+11:11:45.1 (21259916)|HEAP_ALLOCATE|[1]|Bytes:5
+11:11:45.1 (21272840)|METHOD_EXIT|[1]|CustomTest
+11:11:45.1 (21301705)|METHOD_ENTRY|[1]|01p1r000007pAtp|CustomTest.getCustData()
+11:11:45.1 (21350498)|HEAP_ALLOCATE|[4]|Bytes:5
+11:11:45.1 (21355881)|STATEMENT_EXECUTE|[3]
+11:11:45.1 (21357686)|STATEMENT_EXECUTE|[4]
+11:11:45.1 (22697898)|HEAP_ALLOCATE|[4]|Bytes:12
+11:11:45.1 (22788299)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+11:11:45.1 (22818488)|HEAP_ALLOCATE|[4]|Bytes:577
+11:11:45.1 (22834578)|VARIABLE_SCOPE_BEGIN|[4]|t|List<test2__c>|true|false
+11:11:45.1 (22912058)|VARIABLE_ASSIGNMENT|[4]|t|[{"LastModifiedDate":"2018-03-27T10:04:50.000Z","IsDeleted":false,"one2__c":"1111","two2__c":"2222","three2__c":"3333","SetupOwnerId":"00D1r000000sW7MEAU","Name":"Dima","SystemModstamp":"2018-03-27T10:04:50.000Z","CreatedById":"0051r000007nKPLAA2","CreatedDate":"2018-03-27T10:04:50.000Z","Id":"a041r00000YuGNPAA3","LastModifiedById":"0051r000007nKPLAA2"},{"LastModifiedDate":"2018-03-27T10:01:25.000Z","IsDeleted":false,"one2__c":"data_one","two2__c":"data_two","three2__c":"data_three","SetupOwnerId":"00D1r000000sW7MEAU","Name":"testing","SystemModstamp":"2018-03-27T10:01:25.000Z","CreatedById":"0051r000007nKPLAA2","CreatedDate":"2018-03-27T10:01:25.000Z","Id":"a041r00000YuGL9AAN","LastModifiedById":"0051r000007nKPLAA2"}]|0x57fa5615
+11:11:45.1 (22930986)|STATEMENT_EXECUTE|[5]
+11:11:45.1 (22936269)|HEAP_ALLOCATE|[5]|Bytes:5
+11:11:45.1 (22970245)|USER_DEBUG|[5]|DEBUG|fffff
+11:11:45.1 (22978942)|STATEMENT_EXECUTE|[6]
+11:11:45.1 (23148156)|USER_DEBUG|[6]|DEBUG|(test2__c:{LastModifiedDate=2018-03-27 10:04:50, IsDeleted=false, one2__c=1111, two2__c=2222, three2__c=3333, SetupOwnerId=00D1r000000sW7MEAU, Name=Dima, SystemModstamp=2018-03-27 10:04:50, CreatedById=0051r000007nKPLAA2, CreatedDate=2018-03-27 10:04:50, Id=a041r00000YuGNPAA3, LastModifiedById=0051r000007nKPLAA2}, test2__c:{LastModifiedDate=2018-03-27 10:01:25, IsDeleted=false, one2__c=data_one, two2__c=data_two, three2__c=data_three, SetupOwnerId=00D1r000000sW7MEAU, Name=testing, SystemModstamp=2018-03-27 10:01:25, CreatedById=0051r000007nKPLAA2, CreatedDate=2018-03-27 10:01:25, Id=a041r00000YuGL9AAN, LastModifiedById=0051r000007nKPLAA2})
+11:11:45.1 (23166159)|STATEMENT_EXECUTE|[8]
+11:11:45.1 (23216911)|HEAP_ALLOCATE|[8]|Bytes:12
+11:11:45.1 (23228223)|VARIABLE_SCOPE_BEGIN|[8]|t2|Map<String,test2__c>|true|false
+11:11:45.1 (23270767)|VARIABLE_ASSIGNMENT|[8]|t2|{"Dima":{"LastModifiedDate":"2018-03-27T10:04:50.000Z","IsDeleted":false,"one2__c":"1111","two2__c":"2222","three2__c":"3333","SetupOwnerId":"00D1r000000sW7MEAU","Name":"Dima","SystemModstamp":"2018-03-27T10:04:50.000Z","CreatedById":"0051r000007nKPLAA2","CreatedDate":"2018-03-27T10:04:50.000Z","Id":"a041r00000YuGNPAA3","LastModifiedById":"0051r000007nKPLAA2"},"testing":{"LastModifiedDate":"2018-03-27T10:01:25.000Z","IsDeleted":false,"one2__c":"data_one","two2__c":"data_two","three2__c":"data_three","SetupOwnerId":"00D1r000000sW7MEAU","Name":"testing","SystemModstamp":"2018-03-27T10:01:25.000Z","CreatedById":"0051r000007nKPLAA2","CreatedDate":"2018-03-27T10:01:25.000Z","Id":"a041r00000YuGL9AAN","LastModifiedById":"0051r000007nKPLAA2"}}|0x1cd0aba8
+11:11:45.1 (23286117)|STATEMENT_EXECUTE|[9]
+11:11:45.1 (23289438)|HEAP_ALLOCATE|[9]|Bytes:4
+11:11:45.1 (23304992)|USER_DEBUG|[9]|DEBUG|gggg
+11:11:45.1 (23311902)|STATEMENT_EXECUTE|[10]
+11:11:45.1 (23398728)|USER_DEBUG|[10]|DEBUG|{Dima=test2__c:{LastModifiedDate=2018-03-27 10:04:50, IsDeleted=false, one2__c=1111, two2__c=2222, three2__c=3333, SetupOwnerId=00D1r000000sW7MEAU, Name=Dima, SystemModstamp=2018-03-27 10:04:50, CreatedById=0051r000007nKPLAA2, CreatedDate=2018-03-27 10:04:50, Id=a041r00000YuGNPAA3, LastModifiedById=0051r000007nKPLAA2}, testing=test2__c:{LastModifiedDate=2018-03-27 10:01:25, IsDeleted=false, one2__c=data_one, two2__c=data_two, three2__c=data_three, SetupOwnerId=00D1r000000sW7MEAU, Name=testing, SystemModstamp=2018-03-27 10:01:25, CreatedById=0051r000007nKPLAA2, CreatedDate=2018-03-27 10:01:25, Id=a041r00000YuGL9AAN, LastModifiedById=0051r000007nKPLAA2}}
+11:11:45.1 (23414163)|STATEMENT_EXECUTE|[11]
+11:11:45.1 (23417658)|HEAP_ALLOCATE|[11]|Bytes:4
+11:11:45.1 (30858888)|HEAP_ALLOCATE|[11]|Bytes:52
+11:11:45.1 (30896914)|VARIABLE_SCOPE_BEGIN|[11]|obj|test2__c|true|false
+11:11:45.1 (30954177)|VARIABLE_ASSIGNMENT|[11]|obj|{"LastModifiedDate":"2018-03-27T10:04:50.000Z","IsDeleted":false,"one2__c":"1111","two2__c":"2222","three2__c":"3333","SetupOwnerId":"00D1r000000sW7MEAU","Name":"Dima","SystemModstamp":"2018-03-27T10:04:50.000Z","CreatedById":"0051r000007nKPLAA2","CreatedDate":"2018-03-27T10:04:50.000Z","Id":"a041r00000YuGNPAA3","LastModifiedById":"0051r000007nKPLAA2"}|0x154c213c
+11:11:45.1 (30967514)|STATEMENT_EXECUTE|[12]
+11:11:45.1 (31069593)|USER_DEBUG|[12]|DEBUG|test2__c:{LastModifiedDate=2018-03-27 10:04:50, IsDeleted=false, one2__c=1111, two2__c=2222, three2__c=3333, SetupOwnerId=00D1r000000sW7MEAU, Name=Dima, SystemModstamp=2018-03-27 10:04:50, CreatedById=0051r000007nKPLAA2, CreatedDate=2018-03-27 10:04:50, Id=a041r00000YuGNPAA3, LastModifiedById=0051r000007nKPLAA2}
+11:11:45.1 (31097443)|METHOD_EXIT|[1]|01p1r000007pAtp|CustomTest.getCustData()
+11:11:45.1 (31104968)|SYSTEM_MODE_EXIT|false
+11:11:45.31 (31167610)|CUMULATIVE_LIMIT_USAGE
+11:11:45.31 (31167610)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:11:45.31 (31167610)|CUMULATIVE_LIMIT_USAGE_END
+
+11:11:45.1 (31201494)|CODE_UNIT_FINISHED|execute_anonymous_apex
+11:11:45.1 (32361118)|EXECUTION_FINISHED

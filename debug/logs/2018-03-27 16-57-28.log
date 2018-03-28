@@ -1,0 +1,72 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: DaysPartController.getDaysPart();
+14:57:27.1 (1103956)|USER_INFO|[EXTERNAL]|0051r000007nKPL|assh4884@cunning-goat-277018.com|Greenwich Mean Time|GMT+01:00
+14:57:27.1 (1123248)|EXECUTION_STARTED
+14:57:27.1 (1127536)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+14:57:27.1 (1286894)|HEAP_ALLOCATE|[72]|Bytes:3
+14:57:27.1 (1322185)|HEAP_ALLOCATE|[77]|Bytes:152
+14:57:27.1 (1333169)|HEAP_ALLOCATE|[342]|Bytes:408
+14:57:27.1 (1345219)|HEAP_ALLOCATE|[355]|Bytes:408
+14:57:27.1 (1354936)|HEAP_ALLOCATE|[467]|Bytes:48
+14:57:27.1 (1377714)|HEAP_ALLOCATE|[139]|Bytes:6
+14:57:27.1 (1393724)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+14:57:27.1 (1463362)|STATEMENT_EXECUTE|[1]
+14:57:27.1 (1466042)|STATEMENT_EXECUTE|[1]
+14:57:27.1 (1509306)|HEAP_ALLOCATE|[50]|Bytes:5
+14:57:27.1 (1527463)|HEAP_ALLOCATE|[56]|Bytes:5
+14:57:27.1 (1535187)|HEAP_ALLOCATE|[64]|Bytes:7
+14:57:27.1 (1554617)|SYSTEM_MODE_ENTER|false
+14:57:27.1 (1567739)|HEAP_ALLOCATE|[1]|Bytes:5
+14:57:27.1 (21612132)|HEAP_ALLOCATE|[1]|Bytes:4
+14:57:27.1 (21629623)|HEAP_ALLOCATE|[1]|Bytes:5
+14:57:27.1 (21648623)|METHOD_ENTRY|[1]|01p1r000007pMQE|DaysPartController.DaysPartController()
+14:57:27.1 (21656339)|STATEMENT_EXECUTE|[1]
+14:57:27.1 (21661501)|STATEMENT_EXECUTE|[1]
+14:57:27.1 (21674582)|HEAP_ALLOCATE|[1]|Bytes:5
+14:57:27.1 (21688691)|METHOD_EXIT|[1]|DaysPartController
+14:57:27.1 (21718193)|METHOD_ENTRY|[1]|01p1r000007pMQE|DaysPartController.getDaysPart()
+14:57:27.1 (21804077)|HEAP_ALLOCATE|[5]|Bytes:5
+14:57:27.1 (21810345)|STATEMENT_EXECUTE|[4]
+14:57:27.1 (21812461)|STATEMENT_EXECUTE|[5]
+14:57:27.1 (22450312)|HEAP_ALLOCATE|[5]|Bytes:16
+14:57:27.1 (22474422)|VARIABLE_SCOPE_BEGIN|[5]|daysPart|Map<String,Days_part__c>|true|false
+14:57:27.1 (22570497)|VARIABLE_ASSIGNMENT|[5]|daysPart|{"Morning":{"LastModifiedDate":"2018-03-27T12:50:19.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Morning","SystemModstamp":"2018-03-27T12:50:19.000Z","End__c":12.0,"Separation__c":15.0,"CreatedById":"0051r000007nKPLAA2","Start__c":7.0,"CreatedDate":"2018-03-27T12:50:19.000Z","Id":"a051r00000nYll2AAC","LastModifiedById":"0051r000007nKPLAA2"},"Afternoon":{"LastModifiedDate":"2018-03-27T12:50:47.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Afternoon","SystemModstamp":"2018-03-27T12:50:47.000Z","End__c":17.0,"Separation__c":30.0,"CreatedById":"0051r000007nKPLAA2","Start__c":12.0,"CreatedDate":"2018-03-27T12:50:47.000Z","Id":"a051r00000nYll7AAC","LastModifiedById":"0051r000007nKPLAA2"},"Night":{"LastModifiedDate":"2018-03-27T13:06:14.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Night","SystemModstamp":"2018-03-27T13:06:14.000Z","End__c":23.0,"Separation__c":20.0,"CreatedById":"0051r000007nKPLAA2","Start__c":17.0,"CreatedDate":"2018-03-27T12:51:09.000Z","Id":"a051r00000nYllCAAS","LastModifiedById":"0051r000007nKPLAA2"}}|0x173e46ea
+14:57:27.1 (22596297)|STATEMENT_EXECUTE|[6]
+14:57:27.1 (22612408)|METHOD_ENTRY|[6]|01p1r000007pMQE|DaysPartController.getTimeCellsBySeparator(Map<String,Days_part__c>)
+14:57:27.1 (22638798)|VARIABLE_SCOPE_BEGIN|[10]|daysPart|Map<String,Days_part__c>|true|false
+14:57:27.1 (22681067)|VARIABLE_ASSIGNMENT|[10]|daysPart|{"Morning":{"LastModifiedDate":"2018-03-27T12:50:19.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Morning","SystemModstamp":"2018-03-27T12:50:19.000Z","End__c":12.0,"Separation__c":15.0,"CreatedById":"0051r000007nKPLAA2","Start__c":7.0,"CreatedDate":"2018-03-27T12:50:19.000Z","Id":"a051r00000nYll2AAC","LastModifiedById":"0051r000007nKPLAA2"},"Afternoon":{"LastModifiedDate":"2018-03-27T12:50:47.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Afternoon","SystemModstamp":"2018-03-27T12:50:47.000Z","End__c":17.0,"Separation__c":30.0,"CreatedById":"0051r000007nKPLAA2","Start__c":12.0,"CreatedDate":"2018-03-27T12:50:47.000Z","Id":"a051r00000nYll7AAC","LastModifiedById":"0051r000007nKPLAA2"},"Night":{"LastModifiedDate":"2018-03-27T13:06:14.000Z","IsDeleted":false,"SetupOwnerId":"00D1r000000sW7MEAU","Name":"Night","SystemModstamp":"2018-03-27T13:06:14.000Z","End__c":23.0,"Separation__c":20.0,"CreatedById":"0051r000007nKPLAA2","Start__c":17.0,"CreatedDate":"2018-03-27T12:51:09.000Z","Id":"a051r00000nYllCAAS","LastModifiedById":"0051r000007nKPLAA2"}}|0x173e46ea
+14:57:27.1 (22714246)|HEAP_ALLOCATE|[11]|Bytes:5
+14:57:27.1 (22719704)|STATEMENT_EXECUTE|[10]
+14:57:27.1 (22721336)|STATEMENT_EXECUTE|[11]
+14:57:27.1 (22956504)|USER_DEBUG|[11]|DEBUG|{Afternoon=Days_part__c:{LastModifiedDate=2018-03-27 12:50:47, IsDeleted=false, SetupOwnerId=00D1r000000sW7MEAU, Name=Afternoon, SystemModstamp=2018-03-27 12:50:47, End__c=17.0, Separation__c=30.0, CreatedById=0051r000007nKPLAA2, Start__c=12.0, CreatedDate=2018-03-27 12:50:47, Id=a051r00000nYll7AAC, LastModifiedById=0051r000007nKPLAA2}, Morning=Days_part__c:{LastModifiedDate=2018-03-27 12:50:19, IsDeleted=false, SetupOwnerId=00D1r000000sW7MEAU, Name=Morning, SystemModstamp=2018-03-27 12:50:19, End__c=12.0, Separation__c=15.0, CreatedById=0051r000007nKPLAA2, Start__c=7.0, CreatedDate=2018-03-27 12:50:19, Id=a051r00000nYll2AAC, LastModifiedById=0051r000007nKPLAA2}, Night=Days_part__c:{LastModifiedDate=2018-03-27 13:06:14, IsDeleted=false, SetupOwnerId=00D1r000000sW7MEAU, Name=Night, SystemModstamp=2018-03-27 13:06:14, End__c=23.0, Separation__c=20.0, CreatedById=0051r000007nKPLAA2, Start__c=17.0, CreatedDate=2018-03-27 12:51:09, Id=a051r00000nYllCAAS, LastModifiedById=0051r000007nKPLAA2}}
+14:57:27.1 (22983621)|STATEMENT_EXECUTE|[12]
+14:57:27.1 (22987547)|HEAP_ALLOCATE|[12]|Bytes:9
+14:57:27.1 (23085663)|USER_DEBUG|[12]|DEBUG|17.0
+14:57:27.1 (23095010)|STATEMENT_EXECUTE|[16]
+14:57:27.1 (23108624)|HEAP_ALLOCATE|[16]|Bytes:4
+14:57:27.1 (23124364)|VARIABLE_SCOPE_BEGIN|[16]|t|Map<Integer,List<String>>|true|false
+14:57:27.1 (23139565)|VARIABLE_ASSIGNMENT|[16]|t|{}|0x2b68f022
+14:57:27.1 (23145237)|STATEMENT_EXECUTE|[17]
+14:57:27.1 (23152485)|METHOD_EXIT|[6]|01p1r000007pMQE|DaysPartController.getTimeCellsBySeparator(Map<String,Days_part__c>)
+14:57:27.1 (23158814)|STATEMENT_EXECUTE|[7]
+14:57:27.1 (23167586)|METHOD_EXIT|[1]|01p1r000007pMQE|DaysPartController.getDaysPart()
+14:57:27.1 (23174486)|SYSTEM_MODE_EXIT|false
+14:57:27.23 (23207731)|CUMULATIVE_LIMIT_USAGE
+14:57:27.23 (23207731)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:57:27.23 (23207731)|CUMULATIVE_LIMIT_USAGE_END
+
+14:57:27.1 (23241301)|CODE_UNIT_FINISHED|execute_anonymous_apex
+14:57:27.1 (24596824)|EXECUTION_FINISHED
